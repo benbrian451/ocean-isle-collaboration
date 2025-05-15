@@ -1,11 +1,11 @@
-/* General Styles */
+
 body {
     font-family: 'Cormorant Garamond', serif;
     margin: 0;
     padding: 0;
 }
 
-/* Navigation */
+
 nav {
     position: sticky;
     top: 0;
@@ -15,9 +15,9 @@ nav {
 }
 
 .title {
-    text-align: center; /* Centers text horizontally */
+    text-align: center; 
     display: block;
-    margin: 20px auto; /* Adds spacing & centers */
+    margin: 20px auto; 
 }
 
 nav ul {
@@ -69,20 +69,20 @@ nav ul li a:hover {
     opacity: 0.8;
 }
 
-/* Fade-out effect */
+
 .fade-out {
     color: green;
     opacity: 1;
     transition: opacity 1s ease-out;
 }
 
-/* Club Contact Info */
+
 .club-info {
     text-align: center;
     padding: 20px;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
