@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+.title {
+    text-align: center; /* Centers text horizontally */
+    display: block;
+    margin: 20px auto; /* Adds spacing & centers */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0057b3;
+}
+
+/* Form Styling */
+.contact-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    background: #0057b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.contact-form button:hover {
+    opacity: 0.8;
+}
+
+/* Fade-out effect */
+.fade-out {
+    color: green;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+/* Club Contact Info */
+.club-info {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #66b94e;
+    color: white;
+}
+
+footer img {
+    width: 30px;
+}

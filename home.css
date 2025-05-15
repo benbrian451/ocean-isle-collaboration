@@ -1,0 +1,104 @@
+/* Global Styling */
+body {
+    font-family: "Cormorant Garamond", serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0057b3;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-image: url('ocean court.jpg'); /* Ensure correct image path */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* Hero Text Box */
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about-us {
+    padding: 50px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #006400;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-us-image {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #032814a8;
+    color: white;
+}
+
+footer img {
+    width: 30px;
+}
