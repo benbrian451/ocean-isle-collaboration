@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #D0C0A6;
+
+}
+.header{
+    margin-bottom: 20px;
+    padding: 20px;
+    position: sticky;
+}
+.header nav span ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    height: 45px;
+    justify-items: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 100%;
+}
+.container .court img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.hero {
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    height: 600px;
+    align-items: last baseline;
+    padding: 40px;
+    background-image: url('ocean\ court\ 2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+  .image1 img,.image2 img,.image3 img,.image4 img,.image5 img,.image6 img{
+    height: 250px;
+    width: auto;
+  }  
+  .text p{
+    background: #136F63;
+  }
+  .text h5{
+    background: #136F63;
+    font-size: 40px;
+    color: black;
+  }
+  .nav-list li a:hover {
+    background-color:  #FFF5DC;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .nav-list li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 15px;
+    transition: background 1s;}
+ .containerb {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px; 
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .restaurant-container{
+      grid-column: span 2;
+    }
+    .text-div{
+      grid-column: span 2;
+      text-align: center;
+      align-items: center;
+    }
+
+    .containerb > div {
+      background-color: #f9f9f9;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+      height: fit-content;
+      
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    p {
+      margin: 0;
+      padding: 0 10px;
+      font-size: 30px;
+    }
+    .containerb >div:nth-child(1){
+      grid-column: span 3;
+    
+    }
+    .containerb >div:nth-child(2){
+      grid-column: span 3;    }
+      .girls, .lobe-ball, .lovers{
+        grid-column: span 1;
+      }
+      .text-div p{
+        font-size: 35px;
+        padding: 20px;
+        height: fit-content;
+      }
+    .footer{
+      background: color(srgb red green blue);
+      text-align: center;
+      /* border: 2px solid black; */
+    }
+
+
+
+
+    

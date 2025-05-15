@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+}
+
+.container {
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 960px;
+}
+
+nav {
+    background-color: #d0d0d0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+}
+
+.left-section {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.image-container.bottom .overlay-text {
+    font-size: 1.5em;
+}
+
+.right-section {
+    flex: 0.4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text-content {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    font-size: 46PX;
+}
+
+.embed-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.image-container.top {
+    background-color: #80aaff; 
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container.bottom {
+    background-color: #aaff80;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+.copyright{
+    background-color: black;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
